@@ -190,13 +190,14 @@ You can set your preferred path in the training loop or move weights to the `wei
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/D3vil13/facecom-pipeline.git
-cd facecom-pipeline
+git clone https://github.com/D3vil13/COMSYS-Hackathon-5-2025.git
+cd COMSYS-Hackathon-5-2025
 
 pip install -r requirements.txt
 
 # For testing Gender Classification (Task A)
 # set test_dir in inference_task_a.py
+
 python inference_task_a.py
 
 # For testing Face Matching (Task B)
@@ -206,6 +207,7 @@ python inference_task_b.py
 
 # For training Gender Classification (Task A)
 # set train_dir and val_dir in config.py
+
 python task_a.py
 
 # For training Face Matching (Task B)

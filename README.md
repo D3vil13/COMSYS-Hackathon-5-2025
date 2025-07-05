@@ -195,11 +195,22 @@ cd facecom-pipeline
 
 pip install -r requirements.txt
 
+# For testing Gender Classification (Task A)
+# set test_dir in inference_task_a.py
+python inference_task_a.py
 
-# For Gender Classification (Task A)
+# For testing Face Matching (Task B)
+# set test_dir in inference_task_b.py
+
+python inference_task_b.py
+
+# For training Gender Classification (Task A)
+# set train_dir and val_dir in config.py
 python task_a.py
 
-# For Face Matching (Task B)
+# For training Face Matching (Task B)
+# set train_dir and val_dir in config.py
+
 python task_b.py
 ```
 
